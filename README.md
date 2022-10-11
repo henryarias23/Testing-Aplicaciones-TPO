@@ -1,4 +1,4 @@
-#Testing Aplicaciones: trabajo practico obligatorio 
+#Testing de Aplicaciones: trabajo practico obligatorio 
 
 ##nombre equipo:
 -'Morales-Arias-Galarza'
