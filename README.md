@@ -1,7 +1,7 @@
 #Testing de Aplicaciones: trabajo practico obligatorio 
 
 ##nombre equipo:
--'Morales-Arias-Galarza'
+-'Vegeta 777'
 
 ##integrantes:
 -'Arias Henry'
