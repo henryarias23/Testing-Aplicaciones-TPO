@@ -1,0 +1,94 @@
+TESTING DE APLICACIONES
+
+Fuera de Alcance
+Envío de mails: se realiza con una herramienta de terceros (que el equipo no está desarrollando). El equipo de Marketing se encarga de los mails relacionados a productos (pruebas de aceptación), y los emails de gestión de cuentas lo realiza el equipo de CSM (pruebas de aceptación).
+-	Mail de confirmación de Compras
+-	Mails de Carritos abandonados (abandoned checkouts)
+-	Mails de Promociones
+-	Mails de Olvido de Contraseñas
+
+PE-16
+
+Requerimientos:
+  
+	*Pedir cuenta de email
+	*Poder crear una cuenta nueva
+	*Pedir informacion personal necesaria
+	*registar una vez completados los campos
+
+PE-54
+
+Requerimientos:
+	*Sistema de inicio de sesion
+	*chequear y vaidar de casilla de mail antes del escribir la contraseña
+	*mostar casilla de contraseña en oculto
+	*Posibilidad de hacer visible la contraseña
+
+PE-17
+
+Step by step:
+
+-   ingresar direccion de email
+-   click en "crear una cuenta"
+-   ingresar las casillas obligatorias de informacion personal
+-   ingresar las casillas en "your address"
+-   una vez completadas con los datos correctos, hacer click en "registar"
+
+Casos de Prueba
+
+-   ID: CP-001-crear_cuenta
+-   Descripcion: opcion de crear una cuenta para la pltaforma ecommerce 
+-   Datos: informacion personal (nombre completo, Email, contrraseña, fecha de nacimiento,) y su dirreccion (compania, calle, ciudad, provincia, codigo postal, pais)
+-   Precondiciones: tener una cuenta de email
+-   Prioridad: alta
+-   Resultado Esperado: registro con exito, creando asi la cuenta nueva
+-   Resultado Obtenido: cuenta nueva registrada
+-   Post-Condiciones: nuevo usuario en la plataforma
+-   Pasos a Ejecutar: descrito en el step by step
+
+-   ID: CP-002-crear_cuenta_con_email_ya_registrado
+-   Descripcion: opcion de crear una cuenta para la pltaforma ecommerce 
+-   Datos: informacion personal (nombre completo, Email, contrraseña, fecha de nacimiento,) y su dirreccion (compania, calle, ciudad, provincia, codigo postal, pais)
+-   Precondiciones: tener una cuenta de email
+-   Prioridad: alta
+-   Resultado Esperado: no se puedo crear la cueta por usar un mail ya registrtado en la plataforma
+-   Resultado Obtenido: mensaje de error
+-   Post-Condiciones: reintentar con un mail no usado  
+-   Pasos a Ejecutar: descrito en el step by step
+
+PE-54
+
+Step by step:
+
+-   entrar a la pagina 
+-   ir a "iniciar sesion"
+-   ingresar email valido de la cuenta 
+-   ingreasar contraseña
+-   clickear en "login"
+
+
+Casos de Prueba
+
+-   ID: CP-001-log_in
+-   Descripcion: entar a la plataforma con mail y contraseña
+-   Datos: dirrecion de email y contraseña
+-   Precondiciones: haber creado una cuenta
+-   Prioridad: alta
+-   Resultado Esperado: inicio de sesion con exito 
+-   Resultado Obtenido: inicio de sesion con exito
+-   Post-Condiciones: acceso garantizado a la plataforma
+-   Pasos a Ejecutar: descrito en el step by step
+
+-   ID: CP-002-log_in_con _datos_erroneos
+-   Descripcion: querer entrar a la plataforma con mail y contraseña incorrectos
+-   Datos: dirrecion de email y contraseña
+-   Precondiciones: no saber usurio y/o contraseña
+-   Prioridad: alta
+-   Resultado Esperado: fallo al iniciar sesion
+-   Resultado Obtenido: opcion de reintentar hasta tres veces, en caso de complatar erroneamente mas de lo permitido, bloquear cuenta
+-   Post-Condiciones: dar posibilidad de desbloquear usuario y blanquear la contraseña
+-   Pasos a Ejecutar: descrito en el step by step
+
+
+
+
