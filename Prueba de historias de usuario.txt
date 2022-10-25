@@ -1,0 +1,21 @@
+Prueba de las Historias de Usuario
+
+PE-16
+
+Reporte de errores:
+
+-  	te deja ingresar correos que no invalidos
+-	el boton de registro se habilita antes de llenar los campos
+-	me tira error cuando registro una direccion 
+-	me tira error cuando regristro un numero de celular
+-	solo me deja elegir como pais a United States
+-	no se puede crear usuario por los multiples errores
+
+PE-54
+
+Reporte de errores
+
+-	No valida bien los correos
+-	el campo de contraseña no ofrece la posibilidad de hacerlo visible 
+-	no se bloquea al tercer intento fallido
+-	no me aparce ningun mensaje de usuario bloqueado
