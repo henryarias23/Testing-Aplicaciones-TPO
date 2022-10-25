@@ -1,4 +1,4 @@
-Prueba de las Historias de Usuario
+Reporte de las Historias de Usuario
 
 PE-16
 
@@ -19,3 +19,26 @@ Reporte de errores
 -	el campo de contraseña no ofrece la posibilidad de hacerlo visible 
 -	no se bloquea al tercer intento fallido
 -	no me aparce ningun mensaje de usuario bloqueado
+
+
+
+Requerimientos:
+
+PE-53
+
+-    Opcion de cambiar datos(menos usuario, datos, dni)
+-    Opcion de agregar un email secundario
+
+PE-44
+
+-    Poder agregar productos al carro uno a la vez
+-    Mostar mensaje de exito tras agrgar un producto 
+-    El carro debe mostar datos como cantidad de productos, valor acumualado, precio de envio, precio total  
+-    Mostar el precio de los impuestos
+-    Dar opcion de seguir comprando
+-    Mostar boton para finalizar la compra y relizar el pago
+
+PE-10
+
+-   Fuera de la pagina principal mostar un boton que redirecciona a esta
+-   No debe incluirse en la página principal 
