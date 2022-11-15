@@ -1,0 +1,33 @@
+Reporte de las Historias de Usuario
+
+PE-12
+
+Reporte de errores:
+
+-	no se muestra como vista rapida, si no que estan directamente plasmadas en la pagi8na en si
+-	en las interfaces touch no se incluye esta funcionalidad, ya que no esta implementada en general 
+-	la opcion para compartir por las redes sociales no esta disponible
+
+PE-45
+
+Reporte de errores:
+
+-	la redirrecion no es espontanea al hacer clic en el carrito, si no que muestra una vista rapida de los productos dentro y ofrede la opcion de ser redirreccionado al la pagina del carrito 
+
+PE-46
+
+Reporte de errores:
+
+-	se pueden comparar mas de tres productos
+- 	dentro de las propiedades no estan presente los colores, ni tamaño
+-	no existe ninguna opcion para compartir dentro de las redes 
+
+
+Requerimientos:
+
+PE-20
+
+-	
+
+
+	
