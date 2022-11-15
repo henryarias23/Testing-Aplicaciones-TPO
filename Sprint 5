@@ -1,0 +1,57 @@
+Reporte de las Historias de Usuario
+
+PE-11
+
+Reporte de errores:
+
+no se puede ver mas de una imagen, no se puede compartir por redes sociales
+
+PE-9
+
+Reporte de errores:
+
+el usuario puyede no acptar los terminos del servicio
+no esta el apartado de informacion
+
+PE-21
+
+Reporte de errores
+
+no existen banners con publicidad de productos con descuento
+la ubicacion de los banners no es configurable
+no existen productos con descuento
+
+PE-32
+
+Reporte de errores
+
+el usuario puede realizar la compra sin haberse logueado
+no existe un espacio para dejar comentarios al repartidor
+el usuario no puede aceptar los terminos ni condiciones de envio
+no se ofrecen modalidades de pago
+
+
+Requerimientos
+
+PE-12
+
+vista rápida de las características más importantes del producto al posicionar el mousesobre él.
+No redireccionar a otras páginas sino mostrar ahí mismo con un pop-up.
+Para interfaces tipo touch, no ofrecer este servicio.
+
+PE-45
+
+redireccionar al usuario al detalle de todos los productos que han sido agregados al hacer click en el carrito de compras.
+ver todos los productos del carrito, su cantidad, precio unitario.
+También ver el subtotal y total a abonar por el usuario.
+Ofrecer al usuario la posibilidad de agregar más cantidad de productos, restar e incluso borrarlos
+
+PE-46
+
+poder comparar productos a los usuarios.
+que el máximo de productos a comparar es 3.
+Las características a comparar son las siguientes:Nombre; Precio; Propiedades:características; Estilo; Composición
+Desde allí podrán agregar él o los productos al Carrito.
+visualizar más en detalle un producto.
+La comparación de los productos puede ser compartida por redes sociales.
+posibilidad de quitar los productos de la comparativa
