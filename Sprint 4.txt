@@ -1,0 +1,61 @@
+debido a que la pagina para testear incluida en el trabajo practico decidi buscar una parecida con las mismas cualidades a la original y asi poder hacer el trabajo completo 
+
+"https://magento.softwaretestingboard.com/checkout/onepage/success/"
+
+Reporte de las Historias de Usuario
+
+PE-10
+
+Reporte de errores:
+
+-  	El boton de inicio no esta reprensentado graficamente como una "casita", sino esta repesentado con el logo del e-commerce
+-	La opcion de volver a la pagina principal esta presente en la misma pagina de inicio
+	
+PE-53
+
+Reporte de errores:
+
+-	Se puede cambiar todo tipo de informacion, no solo la contaseña, fecha de nacimiento, domicilio, teléfono, como es especificado
+-	La opcion de incluir un e-mail secundario no esta disponible
+
+
+PE-44
+
+Reporte de errores:
+
+-	al agregar un producto al carro, no se especifica que cantidad o las caracteristicas (tipo, talle, color) del mismo.
+-	no se incluye el valor agregado de los impuesto al ver el precio final
+
+Requerimientos:
+
+PE-11
+
+-    Ver los detalles del producto(talles, colores, modelos, precio, nombre)
+-    Mostar fotos del producto
+-    Tener la posibilidad de compartirlo en las redes
+-    Contar con una lista de deseos y agregar lo que uno quiera dentro (que se guarde en la cuenta del usuario)
+-    Agregar al carrito una vez elegidas las cualidades del producto a comprar
+-    Dar la opcion de poder comentar y leer las reseñas que dejaron otros usuarios sobre el producto (sistema de valoracion en base a 5 estrellas)
+
+PE-32
+
+-    Tener minimo un producto en el carro 
+-    Mostar todos los productos a comprar con un resumen de todos los valores finales
+-    Poder ver todos los datos de envio establecidos anteriormente al crear la cuenta
+-    Especificar cuando se prefiere realixar el envio al domicilio especificado
+-    Opcion de elegir distintos metodos de envio y sus distintos costos
+-    Aceptar los terminos y condiciones
+-    Al relaizar el check out se dara a elegir el metodo de pago(tarjetas de credito/debito, billeteras virtuales, etc)
+
+PE-9
+
+-    Dar la opcion de leer los terminos y condiciones completos
+-    Debe ser accesible desde cualquier subseccion del e-commerce(abajo de todo en el apartado "informacion" )
+
+PE-21
+
+-    Mostar en la pagina principal los descuentos disponibles
+-    Beben ser configurables (duracion , si son animados o no)
+-    El precio con descuento se debe mostra junto con el precio original
+-    Un filtro de productos por categorias (talles, color, etc)
+-    Contar con productos que acumulen descuentos junto a los ya preestablecidos en la pagina
