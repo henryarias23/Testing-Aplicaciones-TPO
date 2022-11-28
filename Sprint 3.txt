@@ -4,7 +4,7 @@ PE-16
 
 Reporte de errores:
 
--  	te deja ingresar correos que no invalidos
+-  	te deja ingresar correos no invalidos
 -	el boton de registro se habilita antes de llenar los campos
 -	me tira error cuando registro una direccion 
 -	me tira error cuando regristro un numero de celular
