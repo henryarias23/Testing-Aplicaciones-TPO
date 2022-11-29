@@ -25,9 +25,24 @@ Reporte de errores:
 
 Requerimientos:
 
-PE-20
+PE-20:
+- El ususario necesita acceso a "Acerca de" desde el Home Page y cualquier subsección del sitio web.
+- Desde aquí tendra acceso al menú inferior para saltar a cualquier sección principal del sitio.
+- También tendra acceso al menú superior para saltar a subsección específicas del sitio
+(novedades, filtros de productos por género, tipo y ofertas)
 
--	
+PE-47:
+- El sistema debe permitir agregar productos a la “wish list” (lista de productos deseados)
+- El usuario debe estar logueado para poder agregar productos
+- El usuario necesita poder editar los productos de su wish list, pudiendo quitarlos y aumentar o disminuir la
+cantidad.
+-  El sistema debe permitir compartir la wish list a otros usuarios por medio de redes sociales.
+- Se podrá agregar cada producto de la wish list al carrito de forma individual.
+- Se podrá agregar toda la wish list al carrito de compras.
+- El sistema debe ofrecer la posibilidad de Actualizar la wish list, para el caso donde un usuario tenga múltiples
+ventanas abiertas y esté agregando productos desde otra ventana.
+- El sistema debe permitir que el usuario visualice la wish list filtrado por cantidad de productos (10, 20, 50, etc),
+siendo este valor configurable desde backend.
 
 
 	
