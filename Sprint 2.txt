@@ -11,19 +11,19 @@ PE-16
 
 Requerimientos:
   
-	*Pedir cuenta de email
-	*Poder crear una cuenta nueva
-	*Pedir informacion personal necesaria
-	*registar una vez completados los campos
+	*El sistema necesita pedir cuenta de email
+	*El usuario debe poder crear una cuenta nueva
+	*El sistema necesita pedir informacion personal necesaria
+	*El usuario debe registar una vez completados los campos
 
 PE-54
 
 Requerimientos:
 
-	*Sistema de inicio de sesion
-	*chequear y vaidar de casilla de mail antes del escribir la contraseña
-	*mostar casilla de contraseña en oculto
-	*Posibilidad de hacer visible la contraseña
+	*El sistema necesita un sistema de inicio de sesion
+	*El sistema debe chequear y vaidar de casilla de mail antes del escribir la contraseña
+	*El sistema debe mostar casilla de contraseña en oculto
+	*El sistema debe ofrecer la posibilidad de hacer visible la contraseña
 
 PE-17
 
