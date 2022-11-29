@@ -2,24 +2,47 @@ Reporte de las Historias de Usuario
 
 PE-20
 
+Reporte de error
+
+-no me muestrar los productos con descuentos  
+
+PE-47
+
+Reporte de error
+
+- no me muestra mis productos cargados en otros dispositivos
+
+PE-8
+
 Reporte de errores:
 
 -	Hay subsecciones del sitio desde donde no se puede acceder al "Accerca de"
 
-PE-47
+PE-13
 
 Reporte de errores:
 -	No se puede agregar toda la wish list al carrito de compras
 
+
 Requerimientos:
 
 PE-20:
+-EL ususario debe poder ver los productos con sus respectivos descuentos
+-El sistema debe mostrar el porcentaje de descuento
+-El sistema debe mostar el precio original
+-El sistema debe mostarr el nuevo precio
+
+PE-47:
+-El usuario podra acceder a su carrito de compras desde cualquier navegador
+-el sistema debe reflejar cualquier modificacion del carrito, en caso de que tenga multiples seciones abiertas
+
+PE-8:
 - El ususario necesita acceso a "Acerca de" desde el Home Page y cualquier subsección del sitio web.
 - Desde aquí tendra acceso al menú inferior para saltar a cualquier sección principal del sitio.
 - También tendra acceso al menú superior para saltar a subsección específicas del sitio
 (novedades, filtros de productos por género, tipo y ofertas)
 
-PE-47:
+PE-13:
 - El sistema debe permitir agregar productos a la “wish list” (lista de productos deseados)
 - El usuario debe estar logueado para poder agregar productos
 - El usuario necesita poder editar los productos de su wish list, pudiendo quitarlos y aumentar o disminuir la
@@ -31,3 +54,5 @@ cantidad.
 ventanas abiertas y esté agregando productos desde otra ventana.
 - El sistema debe permitir que el usuario visualice la wish list filtrado por cantidad de productos (10, 20, 50, etc),
 siendo este valor configurable desde backend.
+
+
